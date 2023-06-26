@@ -164,12 +164,20 @@ body.dark .iknow_tm_portfolio .portfolio_filter ul li a.current {
 }
 
 body.dark .iknow_tm_services .service_list ul li .list_inner {
-	background-color: #545454;
+	background-color: #54545485;
 	box-shadow: none;
+	border: 1px solid transparent;
 }
 
 body.dark .iknow_tm_services .service_list ul li .list_inner:hover {
 	box-shadow: none;
+	border: 1px solid #3165F7;
+	background-color: #545454;
+}
+
+body.dark .iknow_tm_services .service_list ul li .list_inner:hover .icon {
+
+	background-color: #3165F7;
 }
 
 body.dark .iknow_tm_testimonials .testimonials_list .list_inner {

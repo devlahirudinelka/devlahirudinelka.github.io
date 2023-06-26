@@ -206,10 +206,12 @@ h6 {
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
 }
+
 .corporate-chose__sub-img {
-	
+
 	animation: tpupdown-2 0.9s infinite alternate;
 }
+
 @keyframes tpupdown-2 {
 	0% {
 		-webkit-transform: translateY(20);
@@ -227,6 +229,7 @@ h6 {
 		transform: translateY(-20px);
 	}
 }
+
 #preloader:after {
 	left: auto;
 	right: 0;
@@ -2416,7 +2419,7 @@ body.dark .loader_line:after {
 	visibility: hidden;
 	margin-top: -20px;
 	transition-delay: .3s;
-
+	border-radius: 20px;
 	-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
 	-ms-transition: all .3s ease;
@@ -2456,6 +2459,7 @@ body.dark .loader_line:after {
 	overflow: hidden;
 	padding: 50px;
 	overflow-y: scroll;
+	border-radius: 15px !important;
 }
 
 .iknow_tm_modalbox .description_wrap::-webkit-scrollbar,
@@ -3192,6 +3196,11 @@ body.dark .loader_line:after {
 	min-width: 90px;
 	border-radius: 100%;
 	background-color: #62CAFF;
+}
+
+.iknow_tm_contact .wrapper .left ul li .list_inner:hover .icon {
+
+	background-color: #3165F7;
 }
 
 .iknow_tm_contact .wrapper .left ul li .list_inner .icon .svg {
@@ -4623,10 +4632,10 @@ input[type=number] {
 
 .iknow_tm_animate_section {
 	position: absolute;
-	top: 0px;
+	top: 38px;
 	left: 0px;
 	right: 0px;
-	bottom: 0px;
+	bottom: -29px;
 	border-radius: 15px;
 	overflow: hidden;
 	overflow-y: scroll;
