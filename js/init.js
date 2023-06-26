@@ -904,7 +904,7 @@ function iknow_tm_vanta_effects() {
 			minWidth: 0,
 			scale: 1.00,
 			scaleMobile: 1.00,
-			color: 0xb65634
+			color: 202020
 		})
 	}
 }
